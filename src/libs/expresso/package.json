@@ -1,0 +1,67 @@
+{
+  "$schema": "./node_modules/ng-packagr/package.schema.json",
+  "name": "@kyjus25/expresso",
+  "version": "1.0.0",
+  "license": "GPL",
+  "scripts": {
+    "build": "ng-packagr -p package.json"
+  },
+  "peerDependencies": {
+    "@angular/animations": "^5.2.11",
+    "@angular/common": "^5.1.0",
+    "@angular/core": "^5.1.0",
+    "@angular/language-service": "^5.2.8",
+    "@angular/forms": "^5.2.0",
+    "@angular/router": "^5.2.0",
+    "@ngx-translate/core": "^9.1.1",
+    "@pavlov/styles": "^1.0.0",
+    "rxjs": "^5.5.6",
+    "primeng": "latest",
+    "typescript": "^2.0.0"
+  },
+  "devDependencies": {
+    "@angular/animations": "^5.2.11",
+    "@angular/common": "^5.2.0",
+    "@angular/compiler": "^5.2.0",
+    "@angular/core": "^5.2.9",
+    "@angular/forms": "^5.2.0",
+    "@angular/http": "^5.2.0",
+    "@angular/platform-browser": "^5.2.0",
+    "@angular/platform-browser-dynamic": "^5.2.0",
+    "@angular/router": "^5.2.0",
+    "@ngx-translate/core": "^9.1.1",
+    "@ngx-translate/http-loader": "^2.0.1",
+    "@angular-devkit/core": "^0.5.0",
+    "@angular/cli": "~1.7.2",
+    "@angular/compiler-cli": "^5.2.0",
+    "@types/node": "^6.0.106",
+    "angular2-template-loader": "^0.6.2",
+    "awesome-typescript-loader": "^3.5.0",
+    "chart.js": "^2.7.2",
+    "core-js": "^2.4.1",
+    "codelyzer": "^4.0.1",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
+    "lodash-es": "^4.17.8",
+    "html-loader": "^0.5.5",
+    "ng-packagr": "^3.0.2",
+    "primeng": "latest",
+    "rxjs-tslint-rules": "^3.17.0",
+    "sass-loader": "^7.0.1",
+    "style-loader": "^0.20.3",
+    "to-string-loader": "^1.1.5",
+    "rxjs": "^5.5.6",
+    "validator": "^10.4.0",
+    "zone.js": "^0.8.19",
+    "ts-loader": "^3.5.0",
+    "typescript": "^2.8.1"
+  },
+  "ngPackage": {
+    "lib": {
+      "entryFile": "index.ts"
+    },
+    "dest": "./target/dist"
+  }
+}

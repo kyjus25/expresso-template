@@ -1,0 +1,53 @@
+<div class="ui-g">
+  <div class="ui-g-offset-4 ui-g-4">
+    <div class="ui-card login-header-card">
+      <h2 class="card-title">
+        <img class="logo-scale">
+        {{'login.title' | translate}}
+      </h2>
+    </div>
+    <form>
+      <p-panel title="Login" class="ui-g-12">
+        <p-header>
+          {{'login.header' | translate}}
+        </p-header>
+        <div class="ui-g">
+          <div class="ui-g-12">
+            <span class="ui-float-label">
+              <input name="name-input"
+                     class="ui-inputtext"
+                     id="name-input"
+                     type="text"
+                     pInputText
+                     [(ngModel)]="request.username"
+                     autocomplete="name"/>
+              <label for="name-input">{{'login.username' | translate}}</label>
+            </span>
+            <span class="ui-float-label">
+              <input name="password-input"
+                     class="ui-inputtext"
+                     id="password-input"
+                     type="password"
+                     pInputText
+                     [(ngModel)]="request.password"
+                     autocomplete="current-password"/>
+              <label for="password-input">{{'login.password' | translate}}</label>
+            </span>
+          </div>
+        </div>
+        <p-footer>
+          <p-button type="submit"
+                    class="pull-right btn-primary"
+                    (onClick)=okCLicked()
+                    label="{{'login.header' | translate}}">
+          </p-button>
+        </p-footer>
+      </p-panel>
+    </form>
+  </div>
+</div>
+<!--<pm-footer></pm-footer>-->
+<div class="container"></div>
+<div class="footer">
+  <p>&copy; {{copyrightDate}} {{'common.footer.name' | translate}} v{{version}}</p>
+</div>

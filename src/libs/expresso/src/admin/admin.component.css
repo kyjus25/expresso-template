@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+
+@import url('https://cdn.jsdelivr.net/npm/primeng@5.2.7/resources/themes/omega/theme.css');
+@import url('https://cdn.jsdelivr.net/npm/primeng@5.2.7/resources/primeng.min.css');
+
+body {
+  margin: 0 !important;
+}
+.container {
+  font-family: 'Roboto', sans-serif;
+
+  background-color: #f1f1f1;
+  height: 100vh;
+  width: 100vw;
+}
+#admin-page {
+  display: flex;
+}
+app-sidebar {
+  width: 150px;
+  height: 100vh;
+}
+app-main {
+  flex-grow: 1;
+  height: 100vh;
+}
+button {
+  background: #0085ba;
+  border-color: #0073aa #006799 #006799;
+  box-shadow: 0 1px 0 #006799;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 8px 15px;
+}

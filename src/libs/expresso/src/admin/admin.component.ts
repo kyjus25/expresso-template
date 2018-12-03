@@ -2,11 +2,11 @@ import {Component, OnInit, Input, OnDestroy} from '@angular/core';
 import {Router, ActivatedRoute} from '@angular/router';
 
 @Component({
-  selector: 'app-login',
-  styleUrls: ['./login.component.css'],
-  templateUrl: './login.component.html',
+  selector: 'app-admin',
+  styleUrls: ['./admin.component.css'],
+  templateUrl: './admin.component.html',
 })
-export class LoginComponent implements OnInit {
+export class AdminComponent implements OnInit {
 
   constructor() {
   }

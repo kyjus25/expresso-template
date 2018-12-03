@@ -1,0 +1,24 @@
+#admin-topbar {
+  background-color: #23282d;
+}
+#admin-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+}
+#admin-topbar i {
+  font-size: 20px;
+  color: white;
+}
+:host ::ng-deep #admin-topbar p-menubar {
+  flex-grow: 1;
+}
+:host ::ng-deep #admin-topbar p-menubar a {
+  color: white;
+}
+
+:host ::ng-deep #admin-topbar .ui-menubar {
+  background: none;
+  border: none;
+}

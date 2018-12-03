@@ -1,0 +1,12 @@
+#admin-sidebar {
+  background-color: #23282d;
+  height: 100vh;
+}
+:host ::ng-deep #admin-topbar p-menubar a {
+  color: white;
+}
+
+:host ::ng-deep #admin-sidebar .ui-menubar {
+  background: none;
+  border: none;
+}

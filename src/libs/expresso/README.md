@@ -39,8 +39,8 @@
 ### Configuration
 *See section [Setup](#Setup) to initialize*
 1. Configure `./src/app/routes.ts` for login component
-    - `import {LoginComponent} from '@pavlov/auth';`
-    -       {path: '{url}', component: LoginComponent},
+    - `import {TopbarComponent} from '@pavlov/auth';`
+    -       {path: '{url}', component: TopbarComponent},
 2. Words are configured in ngx-translate file `./src/assets/i18n/{lang}.json`.
     -         "login": {
                 "title": "Pavlov Simple Sample",

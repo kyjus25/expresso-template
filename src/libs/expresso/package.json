@@ -19,6 +19,9 @@
     "primeng": "latest",
     "typescript": "^2.0.0"
   },
+  "dependencies": {
+    "primeng": "latest"
+  },
   "devDependencies": {
     "@angular/animations": "^5.2.11",
     "@angular/common": "^5.2.0",
